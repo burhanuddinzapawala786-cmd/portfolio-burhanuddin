@@ -17,7 +17,7 @@ export default function Hero() {
             {/* Top Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-obsidian-900 border border-slate-700/60 shadow-inner text-xs font-mono text-slate-300">
               <Zap className="w-3.5 h-3.5 text-brand-cyan animate-pulse" />
-              <span>Full Stack MERN & System Design Engineer</span>
+              <span>Full Stack MERN Developer</span>
             </div>
 
             {/* Main Headline */}
@@ -89,7 +89,7 @@ export default function Hero() {
                 </div>
                 <div className="text-xs font-mono text-slate-400 flex items-center gap-1.5">
                   <Code2 className="w-3.5 h-3.5 text-brand-cyan" />
-                  <span>system_architecture.config.js</span>
+                  <span>assignCaptains.js</span>
                 </div>
                 <div className="text-[10px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
                   LIVE
@@ -112,7 +112,7 @@ export default function Hero() {
                 <div className="pl-4 text-slate-400">
                   <span className="text-slate-500">// Atomic Redis lock preventing duplicate ride claims</span><br />
                   <span className="text-purple-400">const</span> claimed = <span className="text-purple-400">await</span> redis.<span className="text-cyan-400">set</span>(
-                    <span className="text-emerald-300">`ride:claim:\${rideId}`</span>,
+                    <span className="text-emerald-300">`ride:claim:\rideId`</span>,
                     driverId,
                     <span className="text-emerald-300">'NX'</span>, <span className="text-emerald-300">'EX'</span>, <span className="text-emerald-400">10</span>
                   );
@@ -125,7 +125,7 @@ export default function Hero() {
                 <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
                   <div className="flex items-center gap-2">
                     <Server className="w-3.5 h-3.5 text-brand-cyan" />
-                    <span>BullMQ &amp; Redis Pub/Sub</span>
+                    <span>Ride Booking Platform</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Database className="w-3.5 h-3.5 text-brand-indigo" />

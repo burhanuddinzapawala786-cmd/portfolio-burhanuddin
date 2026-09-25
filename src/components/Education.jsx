@@ -7,7 +7,6 @@ export default function Education() {
     <section id="education" className="py-24 bg-obsidian-950 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-obsidian-900 border border-slate-800 text-xs font-mono text-brand-emerald">
             <GraduationCap className="w-3.5 h-3.5" />
@@ -81,7 +80,7 @@ export default function Education() {
                 </div>
                 <div className="text-right">
                   <span className="text-2xl font-black font-mono text-amber-400">96+</span>
-                  <div className="text-[10px] font-mono text-slate-500">Solved Problems</div>
+                  <div className="text-[10px] font-mono text-slate-500">Solved Problems and Daily Practising </div>
                 </div>
               </div>
 
@@ -93,7 +92,7 @@ export default function Education() {
               <div className="space-y-2">
                 <div className="text-[11px] font-mono text-slate-400">Core Pattern Expertise:</div>
                 <div className="flex flex-wrap gap-1.5">
-                  {['Arrays & Hashing', 'Two Pointers', 'Sliding Window', 'Binary Search', 'Trees & BST', 'Graphs & BFS/DFS', 'Dynamic Programming'].map((tag) => (
+                  {['Arrays & Hashing', 'Two Pointers', 'Sliding Window', 'Binary Search'].map((tag) => (
                     <span key={tag} className="px-2.5 py-1 rounded bg-obsidian-950 border border-slate-800 text-[11px] font-mono text-slate-300">
                       {tag}
                     </span>

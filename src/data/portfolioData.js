@@ -1,9 +1,9 @@
 export const personalDetails = {
   name: "Burhanuddin Zapawala",
   headline: "Full Stack MERN Developer",
-  subheadline: "System Design & Scalable Backend Architecture",
+  subheadline: "Full Stack Developer with 2 In depth architechtured Projects",
   bio: "Full Stack MERN Developer with hands-on experience building production-grade web applications end-to-end — RESTful API design, Redis caching, authentication, queue-based async processing, and real-time, animation-driven frontends. Strong system design fundamentals demonstrated across self-built projects load-tested for real-world scale.",
-  location: "Pune, Maharashtra, India",
+  location: "Nashik, Maharashtra, India",
   phone: "+91 9518987995",
   email: "burhanuddinzapawala786@gmail.com",
   github: "https://github.com/burhanuddinzapawala786-cmd",
@@ -70,17 +70,6 @@ export const experiences = [
     description: [
       "Currently interning on ProjectX, a real estate marketplace for buying, selling, and renting property, built with Vite, Tailwind CSS, and Supabase.",
       "Contributing to auth/role-based access control (RBAC), property listings, and a complete MERN-stack rewrite of the platform (Express/Node backend, React frontend)."
-    ]
-  },
-  {
-    role: "Freelance Video Editor",
-    company: "Self-Employed",
-    period: "7 months",
-    type: "Freelance",
-    location: "Remote",
-    description: [
-      "Delivered high-converting video editing projects for 3-4 clients, sourced independently through Instagram outreach and targeted cold DMs.",
-      "Managed the complete client lifecycle — outreach, requirement gathering, timeline estimation, video editing, and feedback iterations across a 7-month run."
     ]
   }
 ];

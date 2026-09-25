@@ -85,8 +85,8 @@ export default function Navbar() {
               <GithubIcon className="w-4 h-4" />
             </a>
             <a
-              href={personalDetails.linkedin}
-              target="_blank"
+              href="https://www.linkedin.com/in/burhanuddin-zapawala-49130a369/"
+              target="https://www.linkedin.com/in/burhanuddin-zapawala-49130a369/"
               rel="noopener noreferrer"
               className="p-2 text-slate-400 hover:text-white hover:bg-slate-800/60 rounded-lg transition-colors"
               title="LinkedIn Profile"
